@@ -19,8 +19,12 @@
         h3{color:#07072F}
         footer{color:#07072F;background-color:#e4ddf4}
         footer{padding:10px}
-        .article1{float:left}
-        .box1{float:center}
+        .imageColumn {
+        float: right;
+        width: 25%;
+        padding: 10px;}
+        .box2{float: right}
+
         @media screen and (max-width: 600px) {
        .nav{flex-direction: column;
     width: 100%}
@@ -34,8 +38,6 @@
     </style>
  </head>
 
- 
-    <body>
     <nav style="font-family: Georgia;">
     <b>
         <a href="homepage.html">About Me</a> |
@@ -46,19 +48,20 @@
       
     <h1 style="font-family: Helvetica;">FERNLOOKBOOK (on the web)</h1>
     <h2 style="font-family: Georgia; font-size: 150%"><u>History</u></h2>
-    
-    <div class="box">
-        <div>
-            <img src="images/FullSizeRender2.jpg" width="200" height="230" alt="image not loading" >
-            <br>
-            <img src="images/IMG_8908.jpg" width="200" height="230" alt="image not loading">
-            <br>
-            <img src="images/IMG_5761.jpg" width="200" height="230" alt="image not loading">
-            <br>
-            <img src="images/IMG_0936.jpg" width="200" height="230" alt="image not loading">
-            <br>
-            <img src="images/IMG_1666.jpg" width="200" height="230" alt="image not loading">
-           </div>
+
+
+      <div class=box1>
+    <img src="images/FullSizeRender2.jpg" width="200" height="250" alt="image not loading" class="center">
+   
+    <img src="images/IMG_8908.jpg" width="200" height="250" alt="image not loading" class="center">
+   
+   
+    <img src="images/IMG_5761.jpg" width="200" height="250" alt="image not loading" class="center">
+   
+  
+    <img src="images/IMG_1666.jpg" width="200" height="250" alt="image not loading" class="center">
+</div>
+
 
     <div class="box2">
         <div>
@@ -80,14 +83,14 @@
 <br>
 <br>
 
-    <footer>
+<footer>
         <h3 style="font-family: Georgia;">Contact Me!</h3>
 Linkedin: <a href="https://www.linkedin.com/in/sophia-fernandez-bba335191">Sophia Fernandez Linkedin</a> 
 <br>
 Email: <a href="mailto:sophiafernandez00@gmail.com"> sophiafernandez00@gmail.com</a>
 <br>
 Instagram: <a href="https://www.instagram.com/fernlookbook/?hl=en"> @fernlookbook</a>
-    </footer>
+</footer>
    
 </body>
 </html>
